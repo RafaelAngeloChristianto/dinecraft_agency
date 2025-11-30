@@ -2,8 +2,9 @@
 
 @import "tailwindcss";
 
-
-
+/* -------------------------
+   Tailwind v4 Brand Fonts
+-------------------------- */
 @theme {
   --font-Jomolhari: "Jomolhari", sans-serif;
   --font-Hammersmith-One: "Hammersmith One", sans-serif;
@@ -15,11 +16,32 @@
   --font-Nunito: "Nunito", sans-serif;
 }
 
-html,
-body,
-#root {
-  height: 100%;
+/* -------------------------
+      FORCE LIGHT MODE
+-------------------------- */
+
+/* Force browsers to treat UI elements as light mode */
+html {
+  color-scheme: light !important;
+  background: #ffffff !important;
 }
 
+/* Prevent accidental dark mode class */
+html.dark {
+  color-scheme: light !important;
+  background: #ffffff !important;
+}
 
+/* Ensure whole app background stays light */
+body, #root {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
 
+/* 🚫 Ignore OS dark preference completely */
+@media (prefers-color-scheme: dark) {
+  html, body, #root {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}

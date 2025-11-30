@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 
 export const PricingPage: React.FC = () => {
     return (
-        <>
+        <div className="flex flex-col min-h-screen bg-white">
             <NavBar />
 
             <section className="w-full min-h-screen bg-[#EFE8D8] py-16 sm:py-20 px-4 sm:px-6 flex justify-center mt-[50px]">
@@ -158,7 +158,7 @@ export const PricingPage: React.FC = () => {
             </section>
 
             <Footer />
-        </>
+        </div>
     )
 }
 

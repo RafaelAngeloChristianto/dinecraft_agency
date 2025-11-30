@@ -42,7 +42,7 @@ export const PoliciesPage: React.FC = () => {
     ]
 
     return (
-        <>
+        <div className="flex flex-col min-h-screen bg-white">
             <NavBar />
             <div className="w-full min-h-screen bg-[#EFE8D8] pt-[80px] mt-[50px] pb-16 sm:pb-20 px-4 sm:px-6 flex justify-center">
                 <div className="w-full max-w-6xl">
@@ -129,7 +129,7 @@ export const PoliciesPage: React.FC = () => {
                 </div>
             </div>
             <Footer />
-        </>
+        </div>
     )
 }
 

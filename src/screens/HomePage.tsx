@@ -56,7 +56,7 @@ export const HomePage: React.FC = () => {
     ];
 
     return (
-        <>
+        <div className="flex flex-col min-h-screen bg-white">
             <NavBar />
 
             {/* Hero Section */}
@@ -379,7 +379,7 @@ export const HomePage: React.FC = () => {
                 </div>
             </section>
             <Footer />
-        </>
+        </div>
     );
 };
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: #ffffff !important; background: #ffffff !important;">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/logo.png" />
@@ -12,8 +12,24 @@
     />
     <title>DineCraft - Website for your Restaurant or Cafe</title>
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="background-color: #ffffff !important; background: #ffffff !important; margin: 0; padding: 0;">
+    <div id="root" style="background-color: #ffffff !important; background: #ffffff !important; min-height: 100vh;"></div>
+    <script>
+      // Force white background on mobile browsers
+      function forceWhiteBackground() {
+        document.documentElement.style.setProperty('background-color', '#ffffff', 'important');
+        document.documentElement.style.setProperty('background', '#ffffff', 'important');
+        document.body.style.setProperty('background-color', '#ffffff', 'important');
+        document.body.style.setProperty('background', '#ffffff', 'important');
+        document.getElementById('root').style.setProperty('background-color', '#ffffff', 'important');
+        document.getElementById('root').style.setProperty('background', '#ffffff', 'important');
+      }
+      
+      // Run immediately and on load
+      forceWhiteBackground();
+      document.addEventListener('DOMContentLoaded', forceWhiteBackground);
+      window.addEventListener('load', forceWhiteBackground);
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
