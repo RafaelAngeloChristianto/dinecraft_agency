@@ -9,8 +9,8 @@ export const PricingPage: React.FC = () => {
         <>
             <NavBar />
 
-            <section className="w-full min-h-screen bg-[#EFE8D8] py-20 px-6 flex justify-center mt-[50px]">
-                <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <section className="w-full min-h-screen bg-[#EFE8D8] py-16 sm:py-20 px-4 sm:px-6 flex justify-center mt-[50px]">
+                <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
 
                     {/* LEFT IMAGE */}
                     <div className="flex justify-center items-start lg:items-center">
@@ -35,23 +35,23 @@ export const PricingPage: React.FC = () => {
                     {/* RIGHT PRICING CARDS */}
                     <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
 
-                        <h2 className="text-5xl font-bold text-[#4A2F23] mb-4 tracking-wide">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#4A2F23] mb-4 tracking-wide">
                             Our Pricing
                         </h2>
 
-                        <p className="text-[#6D4B3A] mb-12 text-lg max-w-lg opacity-70">
+                        <p className="text-[#6D4B3A] mb-8 sm:mb-12 text-base sm:text-lg max-w-lg opacity-70">
                             Choose a plan that fits your cafe or restaurant. Beautiful design, fast delivery.
                         </p>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-10 w-full max-w-md">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 sm:gap-10 w-full max-w-md">
 
                             {/* Basic Plan */}
                             <motion.div
                                 whileHover={{ scale: 1.03 }}
-                                className="bg-[#F7F2E7] border border-[#D5C1A5] rounded-2xl shadow-lg p-8 text-center lg:text-left"
+                                className="bg-[#F7F2E7] border border-[#D5C1A5] rounded-2xl shadow-lg p-6 sm:p-8 text-center lg:text-left"
                             >
-                                <h3 className="text-2xl font-semibold text-[#4A2F23] mb-3">Basic</h3>
-                                <p className="text-4xl font-bold text-[#4A2F23] mb-6">Rp 99.000</p>
+                                <h3 className="text-xl sm:text-2xl font-semibold text-[#4A2F23] mb-3">Basic</h3>
+                                <p className="text-3xl sm:text-4xl font-bold text-[#4A2F23] mb-4 sm:mb-6">Rp 99.000</p>
                                 <ul className="text-[#4A2F23] space-y-3 mb-6">
                                     <li className="flex items-center gap-3">
                                         <span className="w-1.5 h-1.5 bg-[#4A2F23] rounded-full flex-shrink-0"></span>
@@ -78,14 +78,14 @@ export const PricingPage: React.FC = () => {
                             {/* Standard Plan */}
                             <motion.div
                                 whileHover={{ scale: 1.06 }}
-                                className="bg-[#F1E4D3] border-4 border-[#8B5E3C] rounded-2xl shadow-xl p-10 text-center lg:text-left relative scale-105"
+                                className="bg-[#F1E4D3] border-4 border-[#8B5E3C] rounded-2xl shadow-xl p-8 sm:p-10 text-center lg:text-left relative scale-105"
                             >
                                 <span className="absolute -top-4 bg-[#8B5E3C] text-white px-4 py-1 rounded-full text-sm shadow-md">
                                     MOST POPULAR
                                 </span>
 
-                                <h3 className="text-3xl font-semibold text-[#4A2F23] mb-4">Standard</h3>
-                                <p className="text-5xl font-bold text-[#4A2F23] mb-6">Rp 199.000</p>
+                                <h3 className="text-2xl sm:text-3xl font-semibold text-[#4A2F23] mb-4">Standard</h3>
+                                <p className="text-4xl sm:text-5xl font-bold text-[#4A2F23] mb-4 sm:mb-6">Rp 199.000</p>
 
                                 <ul className="text-[#4A2F23] space-y-3 mb-6">
                                     <li className="flex items-center gap-3">
@@ -118,10 +118,10 @@ export const PricingPage: React.FC = () => {
                             {/* Premium Plan */}
                             <motion.div
                                 whileHover={{ scale: 1.03 }}
-                                className="bg-[#F7F2E7] border border-[#D5C1A5] rounded-2xl shadow-lg p-8 text-center lg:text-left"
+                                className="bg-[#F7F2E7] border border-[#D5C1A5] rounded-2xl shadow-lg p-6 sm:p-8 text-center lg:text-left"
                             >
-                                <h3 className="text-2xl font-semibold text-[#4A2F23] mb-3">Premium</h3>
-                                <p className="text-4xl font-bold text-[#4A2F23] mb-6">Rp 499.000</p>
+                                <h3 className="text-xl sm:text-2xl font-semibold text-[#4A2F23] mb-3">Premium</h3>
+                                <p className="text-3xl sm:text-4xl font-bold text-[#4A2F23] mb-4 sm:mb-6">Rp 499.000</p>
 
                                 <ul className="text-[#4A2F23] space-y-3 mb-6">
                                     <li className="flex items-center gap-3">

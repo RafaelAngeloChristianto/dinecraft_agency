@@ -8,12 +8,12 @@ export const Footer: React.FC = () => {
     return (
         <footer className="bg-[#4A2F23] text-white">
             {/* Main Footer Content */}
-            <div className="max-w-7xl mx-auto px-6 py-16">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12">
 
                     {/* Brand Section */}
                     <div className="space-y-4">
-                        <h3 className="text-2xl font-bold text-[#F7E7CE] mb-4">
+                        <h3 className="text-xl sm:text-2xl font-bold text-[#F7E7CE] mb-4">
                             DineCraft
                         </h3>
                         <p className="text-white/80 leading-relaxed">
@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="text-lg font-bold text-[#F7E7CE] mb-4">
+                        <h4 className="text-base sm:text-lg font-bold text-[#F7E7CE] mb-4">
                             Quick Links
                         </h4>
                         <ul className="space-y-3">
@@ -74,7 +74,7 @@ export const Footer: React.FC = () => {
 
                     {/* Services */}
                     <div>
-                        <h4 className="text-lg font-bold text-[#F7E7CE] mb-4">
+                        <h4 className="text-base sm:text-lg font-bold text-[#F7E7CE] mb-4">
                             Our Services
                         </h4>
                         <ul className="space-y-3 text-white/80">
@@ -99,7 +99,7 @@ export const Footer: React.FC = () => {
 
                     {/* Contact Info */}
                     <div>
-                        <h4 className="text-lg font-bold text-[#F7E7CE] mb-4">
+                        <h4 className="text-base sm:text-lg font-bold text-[#F7E7CE] mb-4">
                             Get In Touch
                         </h4>
                         <ul className="space-y-4 text-white/80">
@@ -127,8 +127,8 @@ export const Footer: React.FC = () => {
 
             {/* Bottom Bar */}
             <div className="border-t border-white/10">
-                <div className="max-w-7xl mx-auto px-6 py-6">
-                    <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6">
+                    <div className="flex flex-col md:flex-row justify-between items-center gap-2 sm:gap-4 text-sm text-white/60">
                         <p>
                             © {currentYear} DineCraft. All rights reserved.
                         </p>

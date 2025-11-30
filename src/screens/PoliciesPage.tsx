@@ -44,31 +44,31 @@ export const PoliciesPage: React.FC = () => {
     return (
         <>
             <NavBar />
-            <div className="w-full min-h-screen bg-[#EFE8D8] pt-[80px] mt-[50px] pb-20 px-6 flex justify-center">
+            <div className="w-full min-h-screen bg-[#EFE8D8] pt-[80px] mt-[50px] pb-16 sm:pb-20 px-4 sm:px-6 flex justify-center">
                 <div className="w-full max-w-6xl">
                     {/* Page Title */}
                     <motion.div
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
-                        className="text-center mb-16"
+                        className="text-center mb-12 sm:mb-16"
                     >
-                        <h1 className="text-5xl font-bold text-[#4A2F23] mb-4 tracking-wide">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#4A2F23] mb-4 tracking-wide">
                             Terms & Conditions
                         </h1>
-                        <p className="text-[#6D4B3A] text-lg opacity-70 max-w-2xl mx-auto">
+                        <p className="text-[#6D4B3A] text-base sm:text-lg opacity-70 max-w-2xl mx-auto">
                             Please review our policies carefully before starting your project
                         </p>
                     </motion.div>
 
                     {/* Layout: Text Left, Image Right */}
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-start">
                         {/* Text Content */}
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6, delay: 0.2 }}
-                            className="space-y-6"
+                            className="space-y-4 sm:space-y-6"
                         >
                             {sections.map((section, index) => (
                                 <motion.div
@@ -76,12 +76,12 @@ export const PoliciesPage: React.FC = () => {
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: 0.1 * index }}
-                                    className="bg-[#F7F2E7] border border-[#D5C1A5] rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
+                                    className="bg-[#F7F2E7] border border-[#D5C1A5] rounded-xl shadow-lg p-5 sm:p-6 hover:shadow-xl transition-shadow duration-300"
                                 >
                                     <div className="flex items-start gap-4">
                                         <span className="w-2 h-2 bg-[#8B5E3C] rounded-full mt-2 flex-shrink-0"></span>
                                         <div>
-                                            <h2 className="text-xl font-semibold text-[#4A2F23] mb-2">
+                                            <h2 className="text-lg sm:text-xl font-semibold text-[#4A2F23] mb-2">
                                                 {section.title}
                                             </h2>
                                             <p className="text-[#6D4B3A] leading-relaxed">
@@ -114,9 +114,9 @@ export const PoliciesPage: React.FC = () => {
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.5 }}
-                                className="mt-8 bg-[#8B5E3C] text-white rounded-2xl p-8 shadow-xl"
+                                className="mt-6 sm:mt-8 bg-[#8B5E3C] text-white rounded-2xl p-6 sm:p-8 shadow-xl"
                             >
-                                <h3 className="text-2xl font-bold mb-3">Ready to Get Started?</h3>
+                                <h3 className="text-xl sm:text-2xl font-bold mb-3">Ready to Get Started?</h3>
                                 <p className="mb-6 opacity-90">
                                     Let's bring your cafe or restaurant online with a beautiful website
                                 </p>

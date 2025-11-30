@@ -61,7 +61,7 @@ export const HomePage: React.FC = () => {
 
             {/* Hero Section */}
             <div
-                className="relative w-full h-screen flex items-center justify-center bg-cover bg-center"
+                className="relative w-full mt-[50px] h-screen flex items-center justify-center bg-cover bg-center"
                 style={{ backgroundImage: `url(${cafe_img})` }}
             >
                 <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70"></div>
@@ -73,14 +73,14 @@ export const HomePage: React.FC = () => {
                     className="relative z-10 text-center text-white px-6 max-w-5xl"
                 >
 
-                    <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold drop-shadow-2xl mb-8 leading-tight">
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold drop-shadow-2xl mb-6 sm:mb-8 leading-tight">
                         Beautiful Websites for
                         <span className="block bg-gradient-to-r from-[#F7E7CE] to-[#D4AF7A] bg-clip-text text-transparent mt-2">
                             Cafés & Restaurants
                         </span>
                     </h1>
 
-                    <p className="mt-8 text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto leading-relaxed font-light">
+                    <p className="mt-6 sm:mt-8 text-lg sm:text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto leading-relaxed font-light">
                         Turn your passion into a stunning online experience. Professional web design tailored for food businesses.
                     </p>
 
@@ -122,10 +122,10 @@ export const HomePage: React.FC = () => {
                         <span className="text-[#8B5E3C] font-semibold text-sm uppercase tracking-wider mb-4 block">
                             Our Services
                         </span>
-                        <h2 className="text-5xl md:text-6xl font-bold text-[#4A2F23] mb-6">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#4A2F23] mb-4 sm:mb-6">
                             Why Choose Us?
                         </h2>
-                        <p className="text-[#6D4B3A] text-xl max-w-3xl mx-auto leading-relaxed">
+                        <p className="text-[#6D4B3A] text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
                             We specialize in creating warm, inviting digital experiences that bring your café or restaurant to life online
                         </p>
                     </motion.div>
@@ -173,24 +173,24 @@ export const HomePage: React.FC = () => {
                             <span className="text-[#8B5E3C] font-semibold text-sm uppercase tracking-wider mb-4 block">
                                 Perfect for Your Business
                             </span>
-                            <h2 className="text-5xl md:text-6xl font-bold text-[#4A2F23] mb-6 leading-tight">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#4A2F23] mb-4 sm:mb-6 leading-tight">
                                 Stand Out Online
                             </h2>
-                            <p className="text-[#6D4B3A] text-xl leading-relaxed mb-8">
+                            <p className="text-[#6D4B3A] text-lg sm:text-xl leading-relaxed mb-6 sm:mb-8">
                                 In today's digital world, your website is often the first impression customers have of your business. We create stunning, user-friendly websites that capture the essence of your café or restaurant.
                             </p>
                             <div className="space-y-5">
                                 <div className="flex items-start gap-4 bg-[#F7F2E7] p-5 rounded-xl border border-[#D5C1A5]">
                                     <div className="w-3 h-3 bg-[#8B5E3C] rounded-full mt-1.5 flex-shrink-0"></div>
-                                    <p className="text-[#4A2F23] text-lg">Showcase your menu and atmosphere beautifully</p>
+                                    <p className="text-[#4A2F23] text-base sm:text-lg">Showcase your menu and atmosphere beautifully</p>
                                 </div>
                                 <div className="flex items-start gap-4 bg-[#F7F2E7] p-5 rounded-xl border border-[#D5C1A5]">
                                     <div className="w-3 h-3 bg-[#8B5E3C] rounded-full mt-1.5 flex-shrink-0"></div>
-                                    <p className="text-[#4A2F23] text-lg">Make it easy for customers to find and contact you</p>
+                                    <p className="text-[#4A2F23] text-base sm:text-lg">Make it easy for customers to find and contact you</p>
                                 </div>
                                 <div className="flex items-start gap-4 bg-[#F7F2E7] p-5 rounded-xl border border-[#D5C1A5]">
                                     <div className="w-3 h-3 bg-[#8B5E3C] rounded-full mt-1.5 flex-shrink-0"></div>
-                                    <p className="text-[#4A2F23] text-lg">Build credibility and trust with a professional presence</p>
+                                    <p className="text-[#4A2F23] text-base sm:text-lg">Build credibility and trust with a professional presence</p>
                                 </div>
                             </div>
                         </motion.div>
@@ -256,24 +256,24 @@ export const HomePage: React.FC = () => {
                             <span className="text-[#8B5E3C] font-semibold text-sm uppercase tracking-wider mb-4 block">
                                 Create Memorable Experiences
                             </span>
-                            <h2 className="text-5xl md:text-6xl font-bold text-[#4A2F23] mb-6 leading-tight">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#4A2F23] mb-4 sm:mb-6 leading-tight">
                                 Attract More Customers
                             </h2>
-                            <p className="text-[#6D4B3A] text-xl leading-relaxed mb-8">
+                            <p className="text-[#6D4B3A] text-lg sm:text-xl leading-relaxed mb-6 sm:mb-8">
                                 Your website should do more than just look good—it should bring customers through your doors. We design websites that showcase what makes your café special.
                             </p>
                             <div className="space-y-5">
                                 <div className="flex items-start gap-4 bg-white p-5 rounded-xl border border-[#D5C1A5] shadow-md">
                                     <div className="w-3 h-3 bg-[#8B5E3C] rounded-full mt-1.5 flex-shrink-0"></div>
-                                    <p className="text-[#4A2F23] text-lg">Highlight your signature drinks and dishes</p>
+                                    <p className="text-[#4A2F23] text-base sm:text-lg">Highlight your signature drinks and dishes</p>
                                 </div>
                                 <div className="flex items-start gap-4 bg-white p-5 rounded-xl border border-[#D5C1A5] shadow-md">
                                     <div className="w-3 h-3 bg-[#8B5E3C] rounded-full mt-1.5 flex-shrink-0"></div>
-                                    <p className="text-[#4A2F23] text-lg">Share your story and build emotional connections</p>
+                                    <p className="text-[#4A2F23] text-base sm:text-lg">Share your story and build emotional connections</p>
                                 </div>
                                 <div className="flex items-start gap-4 bg-white p-5 rounded-xl border border-[#D5C1A5] shadow-md">
                                     <div className="w-3 h-3 bg-[#8B5E3C] rounded-full mt-1.5 flex-shrink-0"></div>
-                                    <p className="text-[#4A2F23] text-lg">Create a visual experience that entices visitors</p>
+                                    <p className="text-[#4A2F23] text-base sm:text-lg">Create a visual experience that entices visitors</p>
                                 </div>
                             </div>
                         </motion.div>
@@ -294,10 +294,10 @@ export const HomePage: React.FC = () => {
                         <span className="text-[#8B5E3C] font-semibold text-sm uppercase tracking-wider mb-4 block">
                             Our Process
                         </span>
-                        <h2 className="text-5xl md:text-6xl font-bold text-[#4A2F23] mb-6">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#4A2F23] mb-4 sm:mb-6">
                             How It Works
                         </h2>
-                        <p className="text-[#6D4B3A] text-xl max-w-3xl mx-auto leading-relaxed">
+                        <p className="text-[#6D4B3A] text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
                             Simple, straightforward process from concept to launch
                         </p>
                     </motion.div>
@@ -349,10 +349,10 @@ export const HomePage: React.FC = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h2 className="text-5xl md:text-6xl font-bold text-white mb-8 leading-tight">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 sm:mb-8 leading-tight">
                             Ready to Go Digital?
                         </h2>
-                        <p className="text-white/90 text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed">
+                        <p className="text-white/90 text-lg sm:text-xl md:text-2xl mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
                             Let's create something beautiful together. Your dream website is just a conversation away.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-6 justify-center">

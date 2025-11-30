@@ -21,9 +21,5 @@ body,
   height: 100%;
 }
 
-@media screen and (min-width: 1024px) {
-  body {
-    zoom: 1.2;
-  }
-}
+
 

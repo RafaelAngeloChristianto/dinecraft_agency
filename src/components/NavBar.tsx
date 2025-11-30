@@ -36,7 +36,7 @@ export const NavBar: React.FC = () => {
                     : "bg-white shadow-sm"
                 }`}
         >
-            <nav className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
+            <nav className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 sm:h-20">
                 {/* Logo + Brand */}
                 <Link to="/">
                     <motion.div
@@ -48,15 +48,15 @@ export const NavBar: React.FC = () => {
                         <motion.img
                             whileHover={{ scale: 1.05 }}
                             transition={{ duration: 0.2 }}
-                            className="w-[110px] h-auto"
+                            className="w-[90px] sm:w-[110px] h-auto"
                             src={logo}
                             alt="DineCraft logo"
                         />
                         <div>
-                            <h1 className="font-Nunito text-2xl font-extrabold tracking-wide text-[#4A2F23] group-hover:text-[#8B5E3C] transition-colors">
+                            <h1 className="font-Nunito text-xl sm:text-2xl font-extrabold tracking-wide text-[#4A2F23] group-hover:text-[#8B5E3C] transition-colors">
                                 DineCraft
                             </h1>
-                            <p className="text-xs text-[#8B5E3C] font-medium">
+                            <p className="text-xs text-[#8B5E3C] font-medium hidden sm:block">
                                 Website Agency
                             </p>
                         </div>
@@ -130,7 +130,7 @@ export const NavBar: React.FC = () => {
                         transition={{ duration: 0.3 }}
                         className="lg:hidden bg-white/98 backdrop-blur-md shadow-xl border-t border-[#D5C1A5] overflow-hidden"
                     >
-                        <ul className="flex flex-col gap-2 py-6 px-6">
+                        <ul className="flex flex-col gap-2 py-4 sm:py-6 px-4 sm:px-6">
                             {menuItems.map((item, index) => {
                                 const isActive = location.pathname === item.link;
                                 return (
