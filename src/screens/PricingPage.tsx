@@ -134,7 +134,7 @@ export const PricingPage: React.FC = () => {
                                     </li>
                                     <li className="flex items-center gap-3">
                                         <span className="w-1.5 h-1.5 bg-[#4A2F23] rounded-full flex-shrink-0"></span>
-                                        <span>Full SEO + Analytics</span>
+                                        <span>Full SEO</span>
                                     </li>
                                     <li className="flex items-center gap-3">
                                         <span className="w-1.5 h-1.5 bg-[#4A2F23] rounded-full flex-shrink-0"></span>
