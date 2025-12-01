@@ -71,7 +71,7 @@ export const PricingPage: React.FC = () => {
                                     </li>
                                 </ul>
                                 <button className="bg-[#4A2F23] text-white px-6 py-2 rounded-xl hover:bg-[#3C241A] transition shadow-md">
-                                    Choose Plan
+                                    <a target='_blank' href="https://wa.me/6281319727350?text=Hello,%20I%20want%20to%20choose%20the%20Basic%20Plan">Choose Plan</a>
                                 </button>
                             </motion.div>
 
@@ -111,7 +111,7 @@ export const PricingPage: React.FC = () => {
                                 </ul>
 
                                 <button className="bg-[#4A2F23] text-white px-7 py-3 rounded-xl hover:bg-[#3C241A] transition shadow-md">
-                                    Choose Plan
+                                    <a target='_blank' href="https://wa.me/6281319727350?text=Hello,%20I%20want%20to%20choose%20the%20Standard%20Plan">Choose Plan</a>
                                 </button>
                             </motion.div>
 
@@ -147,7 +147,7 @@ export const PricingPage: React.FC = () => {
                                 </ul>
 
                                 <button className="bg-[#4A2F23] text-white px-6 py-2 rounded-xl hover:bg-[#3C241A] transition shadow-md">
-                                    Choose Plan
+                                    <a target='_blank' href="https://wa.me/6281319727350?text=Hello,%20I%20want%20to%20choose%20the%20Premium%20Plan">Choose Plan</a>
                                 </button>
                             </motion.div>
 
